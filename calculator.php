@@ -7,9 +7,16 @@
   <body>
     <h1>Calculator</h1>
     <form method="get" action="calculator.php">
-      <input type="submit" name="submit">
+      <input type="number" name="number1">
+      <br>
+      <input type="number" name="number2">
+      <br>
+      <input type="submit">
 
     </form>
+    <?php
+    
+    ?>
 
   </body>
 </html>
