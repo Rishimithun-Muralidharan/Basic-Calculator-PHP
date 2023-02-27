@@ -15,8 +15,13 @@
 
     </form>
     <?php
-    
+    $num1 = $_GET["number1"]
     ?>
+    <?php
+    $num2 = $_GET["number2"]
+    ?>
+    <br>
+    The answer is <?php echo $num1 + $num2; ?>
 
   </body>
 </html>
