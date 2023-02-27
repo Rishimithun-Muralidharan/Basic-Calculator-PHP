@@ -21,7 +21,11 @@
     $num2 = $_GET["number2"]
     ?>
     <br>
-    The answer is <?php echo $num1 + $num2; ?>
+    The added answer is <?php echo $num1 + $num2; ?>
+    <br>
+    The subtracted answer is <?php echo $num1 - $num2; ?>
+    <br>
+    
 
   </body>
 </html>
