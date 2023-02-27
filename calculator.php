@@ -25,6 +25,11 @@
     <br>
     The subtracted answer is <?php echo $num1 - $num2; ?>
     <br>
+    The divided answer is <?php echo $num1/$num2; ?>
+    <br>
+    The multiplied answer is <?php echo $num1*$num2;?>
+    <br>
+    The second number as a power of the first number will give <?php echo pow($num1,$num2); ?>
     
 
   </body>
